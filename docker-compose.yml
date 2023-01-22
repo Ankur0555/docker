@@ -1,7 +1,7 @@
 version: '3'
 services:
   one:
-    build:
+    build: 'tomcat:9'
       context: /mnt/docky/
     image: server-1
     ports:
